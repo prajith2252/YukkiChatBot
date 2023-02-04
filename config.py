@@ -30,7 +30,7 @@ SUDO_USER = list(
 LOG_GROUP_ID = "-1001785407908"#int(getenv("LOG_GROUP_ID"))
 
 # Message to display when someone starts your bot
-PRIVATE_START_MESSAGE = "Hello 👋, Thanks for Contacting TMA Support.\n\n Ask your Query 🙂, we will respond ASAP \n\n [Join Updates Channel](https://telegram.me/tmaadda)</b>"#getenv(
+PRIVATE_START_MESSAGE = "<b>Hello {message.from_user.mention} 👋, Thanks for Contacting TMA Support.\n\n Ask your Query 🙂, we will respond ASAP \n\n [Join Updates Channel](https://telegram.me/tmaadda) |  [Backup Channel](https://telegram.me/tmabackup)</b>"#getenv(
   #  "PRIVATE_START_MESSAGE",
     #"Hello! Welcome to my Personal Assistant Bot",
 #)
