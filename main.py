@@ -305,23 +305,7 @@ async def init():
                 return await message.reply_text(
                     "Failed to send the message, User might have blocked the bot or something wrong happened. Please check logs"
                 )
-            @app.on_message(
-
-        filters.command("plans") & filters.user(SUDO_USERS)
-
-    )
-
-    async def plan_func(_, message: Message):
-
-       
-
-            return await message.reply_text(
-
-                "Per Month 10rs \n Permanent 200rs"
-
-
-            )
-
+          
     print("[LOG] - Yukki Chat Bot Started")
     await idle()
 
