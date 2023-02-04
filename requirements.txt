@@ -1,6 +1,7 @@
 asyncio
 dnspython
 motor
-pyrogram==1.4.16
+pyrogram==2.0.66
+
 python-dotenv
 tgcrypto
